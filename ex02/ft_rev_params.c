@@ -6,7 +6,7 @@
 /*   By: jporta <jporta@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/09 11:32:34 by jporta            #+#    #+#             */
-/*   Updated: 2021/07/09 11:56:09 by jporta           ###   ########.fr       */
+/*   Updated: 2021/07/11 00:17:14 by jporta           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,8 +15,8 @@
 
 int	main(int argc, char **argv)
 {
-	int i;
-	int c;
+	int	i;
+	int	c;
 
 	i = argc - 1;
 	c = 0;
@@ -31,9 +31,8 @@ int	main(int argc, char **argv)
 				c++;
 			}
 			write(1, "\n", 1);
-        	i--;
+			i--;
 		}
-
 	}
 	return (0);
 }
